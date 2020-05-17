@@ -1,0 +1,49 @@
+
+.navbar-brand{
+  color:white;
+  background-color: lightseagreen;
+  margin-left:50px;
+  padding:inherit;
+  font-weight: bold;
+  
+}
+.description-header{
+  color:seagreen;
+}
+.description-image{
+  float:left;
+  clear:right;
+  margin:10px;
+  width:60%;
+  height:60%;
+
+}
+.box {
+  min-height: 50px;
+  padding: 5px;
+  margin: 5px;
+  font-weight: 800;
+  text-align: center;
+  
+ 
+}
+.title{
+  color:lightseagreen;
+  font-weight:bolder;
+}
+
+.lightgreen {
+  background: lightseagreen;
+}
+.white {
+  background: transparent;
+}
+
+
+.purple {
+  background: rebeccapurple;
+}
+
+.red {
+  background: indianred;
+}
