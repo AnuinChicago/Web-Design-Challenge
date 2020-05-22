@@ -7,46 +7,46 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand "  href="index-html">Latitude</a>
-            <button class="navbar-toggler" 
-                data-toggle="collapse" 
-                data-target="#nb">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div id="nb" class="navbar-collapse collapse">
+            
+            <div class="container-fluid">
+            <a class="navbar-brand "  href="Landing.html">Latitude</a>
+            <div class="navbar-header">
+               
+                <button class="navbar-toggler ml-auto" data-toggle="collapse" 
+                data-target="#collapse-elements" style="border: solid 2px white">
+                <span class="navbar-toggler-icon" style="color: white"></span>
+            </button> 
+            <div class="collapse navbar-collapse" id="collapse-elements">
                 <ul class="navbar-nav ml-auto ">
                     <li class="nav-item dropdown">
-                        <div class="dropdown">
-                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                              Plots
-                            </button>
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Plots
+                            </a>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                               <a class="dropdown-item" href="Resources/assets/images/Fig1.png">Temperature</a>
                               <a class="dropdown-item" href="Resources/assets/images/Fig2.png">Humidity</a>
                               <a class="dropdown-item" href="Resources/assets/images/Fig3.png">Cloudiness</a>
                               <a class="dropdown-item" href="Resources/assets/images/Fig4.png">Wind Speed</a>
-                            </div>
-                          </div>
+                            </div>                         
                     </li>
-        
                     <li class="nav-item">
                         <a class="nav-link" href="Comparisons.html">Comparison</a>
                     </li>
-         
                     <li class="nav-item">
                         <a class="nav-link" href="Data.html">Data</a>
                     </li>
                 </ul>
             </div>
+        </div> 
+        </div>  
         </nav>
 
     <div class="container">
         <div class="row"> 
             <div class="col-lg-7 col-sm-6">
-                <h1 class="description-header" > Summary: Latitude vs.X</h1>
+                <h3 class="description-header" > Summary: Latitude vs.X</h3>
                 <hr>
                 <img src="Resources/assets/images/Fig1.png" alt="Latitude vs. Max Temp" class="description-image" />
                 <p>The purpose of this project was to analyze how weather changes 
@@ -60,19 +60,34 @@
                 
                 </p></div>
                 
-                    <div class="col-lg-5 col-sm-6">
-                    <h1 class="description-header" > Visualizations</h1>
-                    <a href="Max-Temp.html" ><img src="Resources/assets/images/Fig1.png" alt="Latitude vs. Max Temp" style="width:40%; height:40%" />
-                    </a>
-                    <a href="Humidity.html" ><img src="Resources/assets/images/Fig2.png" alt="Latitude vs. Humidity" style="width:40%; height:40%" />
-                    </a>
-                    <a href="Cloudiness.html" ><img src="Resources/assets/images/Fig3.png" alt="Latitude vs. Cloudiness" style="width:40%; height:40%" />
-                    </a>
-                    <a href="Wind-Speed.html" ><img src="Resources/assets/images/Fig4.png" alt="Latitude vs. Wind Speed" style="width:40%; height:40%" />
-                    </a>
+                    <div class="col-md-4">
+                        <div class="col-md-12">
+                        <h3 class="description-header" > Visualizations</h3>
+                        <hr>
+                        <div class="row">
+                            <div class="col-3 col-md-6">
+                                <a href="Max-Temp.html" ><img src="Resources/assets/images/Fig1.png"  alt="Latitude vs. Max Temp" style="width:100%; height:100%" />
+                                </a>
+                            </div>                    
+                   
+                            <div class="col-3 col-md-6">
+                                <a href="Humidity.html" ><img src="Resources/assets/images/Fig2.png"  alt="Latitude vs. Humidity" style="width:100%; height:100%" />
+                                </a>
+                            </div>
                     
+                            <div class="col-3 col-md-6">
+                                <a href="Cloudiness.html" ><img src="Resources/assets/images/Fig3.png" alt="Latitude vs. Cloudiness" style="width:100%; height:100%" />
+                                </a>
+                            </div>
+                    
+                            <div class="col-3 col-md-6">
+                                <a href="Wind-Speed.html" ><img src="Resources/assets/images/Fig4.png"  alt="Latitude vs. Wind Speed" style="width:100%; height:100%" />
+                                </a>
+                            </div>
+                        </div> 
+                        </div>
                 
-                </div> 
+                    </div> 
          </div> 
     </div>
 
