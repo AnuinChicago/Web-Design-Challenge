@@ -47,3 +47,4 @@ Large screen:
 ## Data Page
 ![web](web4.png)
 ## Visualization Pages
+![web](web5.png)
