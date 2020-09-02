@@ -44,4 +44,5 @@ Large screen:
 ## Comparisons Page
 ![web](web2.png)
 ![web](web3.png)
-
+## Data Page
+![web](web4.png)
