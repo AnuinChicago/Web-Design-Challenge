@@ -41,4 +41,7 @@ This section contains screenshots of each page that must be built, at varying sc
 ## Landing page
 Large screen:
 ![web](web1.png)
+## Comparisons Page
+![web](web2.png)
+![web](web3.png)
 
