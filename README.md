@@ -36,7 +36,7 @@ The website must consist of 7 pages total, including:
   Finally, the website must be deployed to GitHub pages.
 
 # Screenshots
-This section contains screenshot of each page that must be built, at varying screen widths. These are a guide; you can meet the requirements without having the pages look exactly like the below images.
+This section contains screenshots of each page that must be built, at varying screen widths. These are a guide; you can meet the requirements without having the pages look exactly like the below images.
 
 ## Landing page
 Large screen:
